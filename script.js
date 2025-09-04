@@ -265,6 +265,18 @@ noButton.addEventListener("click", () => {
   } else if (noClickCount === 2) {
     showWarning("میخوای دوباره یه فکری بکنی؟ 😢");
     return;
+  } else if (noClickCount === 3) {
+    showWarning("نکن ترو خدا ");
+    return;
+  } else if (noClickCount === 4) {
+    showWarning("در این حد سخت پسندی؟؟؟؟؟؟");
+    return;
+  } else if (noClickCount === 5) {
+    showWarning("چثی چثی چثی چثی چثی ");
+    return;
+  } else if (noClickCount === 6) {
+    showWarning("😢خجالت بکش مسخره ");
+    return;
   }
 
   // بار سوم و بعدش
